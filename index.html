@@ -9,7 +9,7 @@
 		<header class="main-header">
 			 <div class="container">
 				<div class="logo">
-					<a href="#"><img src="img/logo.png" alt="Лого"></a>
+					<img src="img/logo.png" alt="Лого">
 				</div>
 			 </div >
 			<nav class=main-navigator>
@@ -33,19 +33,45 @@
 					<label>Что ищем?</label>
 				</form>
 				<a class="login" href="#">Вход</a>
+				<form action="#" method="post">
+					<input type="email" name="email-login" placeholder="Электронная почта">
+					<label>Электронная почта</label>
+					<input type="password" name="password" placeholder="Пароль">
+					<label>Пароль</label>
+					<input class="btn-light-bg" type="submit" name="login-submit" value="Войти">
+						<div>
+							<a href="#">Забыли пароль?</a>
+							<a href="#">Новая регистрация</a>
+						</div>
+				</form>
 				<a class="basket" href="#">Пусто</a>
 				<p>С 10 до 20, ежедневно<br>
 						8 812 450-25-25</p>
 			</div>
 		</header>
 		<main class="container">
-			<div class="index-logo">
-				<img src="#" width="368" height="204" alt="Глэси шоп">
-				<h1>Крем-брюле и пломбир с малиновым джемом</h1>
-				<a class="logo" href="#">Давайте оба!</a>
-				<input type="radio" checked>
-				<input type="radio">
-				<input type="radio">
+			<div class="slider">
+					<input type="radio" name="slider1" id="slider1_1" checked="checked">
+					<label for="slider1_1"></label>
+					<div>
+						<p>Крем-брюле и пломбир с малиновым джемом</p>
+						<img src='#' alt=''>
+						<a class="btn-light-bg" href="#">Давайте оба!</a>
+					</div>
+					<input type="radio" name="slider1" id="slider1_2">
+					<label for="slider1_2"></label>
+					<div>
+						<p>Шоколадный пломбир и лимонный сорбет</p>
+						<img src='#' alt=''>
+						<a class="btn-light-bg" href="#">Давайте оба!</a>
+					</div>
+					<input type="radio" name="slider1" id="slider1_3">
+					<label for="slider1_3"></label>
+					<div>
+						<p>Пломбир с помадкой и клубничный щербет</p>
+						<img src='#' alt=''>
+						<a class="btn-light-bg" href="#">Давайте оба!</a>
+					</div>
 			</div>
 			<div class="present">
 				<div class="raspberry">
@@ -63,27 +89,27 @@
 			</div>
 			<div class="popular">
 				<div class="popular-item">
-					<a href="#"><img src="#" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой" width="100" height="100"></a>
-					<img src="#" alt="ХИТ" width="50" height="50">
-					<p><a href="#">310<img src="#" alt="рубль" width="10" height="10"></a></p>
+					<a href="#"><img src="catalog-irem-1.jpg" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой" width="100" height="100"></a>
+					<img src="hit.png" alt="ХИТ" width="60" height="60">
+					<p><a href="#">310<img src="#" alt="рубль" width="10" height="10">/кг</a></p>
 					<p><a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a></p>
 				</div>
 				<div class="popular-item">
 					<a href="#"><img src="#" alt="Сливочно-кофейное с кусочками шоколада" width="100" height="100"></a>
 					<img src="#" alt="ХИТ" width="50" height="50">
-					<p><a href="#">380<img src="#" alt="рубль" width="10" height="10"></a></p>
+					<p><a href="#">380<img src="#" alt="рубль" width="10" height="10">/кг</a></p>
 					<p><a href="#">Сливочно-кофейное с кусочками шоколада</a></p>
 				</div>
 				<div class="popular-item">
 					<a href="#"><img src="#" alt="Сливочно-клубничное с присыпкой из белого шоколада" width="100" height="100"></a>
 					<img src="#" alt="ХИТ" width="50" height="50">
-					<p><a href="#">355<img src="#" alt="рубль" width="10" height="10"></a></p>
+					<p><a href="#">355<img src="#" alt="рубль" width="10" height="10">/кг</a></p>
 					<p><a href="#">Сливочно-клубничное с присыпкой из белого шоколада</a></p>
 				</div>
 				<div class="popular-item">
 					<a href="#"><img src="#" alt="Сливочное крем-брюле с карамельной подливкой" width="100" height="100"></a>
 					<img src="#" alt="ХИТ" width="50" height="50">
-					<p><a href="#">415<img src="#" alt="рубль" width="10" height="10"></a></p>
+					<p><a href="#">415<img src="#" alt="рубль" width="10" height="10">/кг</a></p>
 					<p><a href="#">Сливочное крем-брюле с карамельной подливкой</a></p>
 				</div>
 			</div>
