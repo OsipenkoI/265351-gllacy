@@ -33,7 +33,40 @@
 					<label>Что ищем?</label>
 				</form>
 				<a class="login" href="#">Вход</a>
+				<form action="#" method="post">
+					<input type="email" name="email-login" placeholder="Электронная почта">
+					<label>Электронная почта</label>
+					<input type="password" name="password" placeholder="Пароль">
+					<label>Пароль</label>
+					<input class="btn-light-bg" type="submit" name="login-submit" value="Войти">
+						<div>
+							<a href="#">Забыли пароль?</a>
+							<a href="#">Новая регистрация</a>
+						</div>
+				</form>
 				<a class="basket" href="#">2 товара</a>
+				<div class="modal-content-order">
+					<div class="table">
+						<div class="row">
+							<div class="cell col-1"><button type="button"></button></div>
+							<div class="cell col-2"><img src="#" alt="" width="33" height="33"></div>
+							<div class="cell col-3">Пломбир с апельсиновым джемом</div>
+							<div class="cell col-4">1,5 кг х <span class="price-per-one">200 руб.</span></div>
+							<div class="cell col-5">300 руб.</div>
+						</div>
+						<div class="row">
+							<div class="cell col-1"><button type="button"></button></div>
+							<div class="cell col-2"><img src="i#" alt="" width="33" height="33"></div>
+							<div class="cell col-3">Клубничный пломбир с присыпкой из белого шоколада</div>
+							<div class="cell col-4">1,5 кг х <span class="price-per-one">300 руб.</span></div>
+							<div class="cell col-5">450 руб.</div>
+						</div>
+					</div>
+					<div class="invisible">
+						<p class="total">Итого: 750 руб.</p>
+						<input class="btn-light-bg checkout" type="submit" value="Оформить заказ">
+					</div>
+				</div>
 				<p>С 10 до 20, ежедневно<br>
 						8 812 450-25-25</p>
 			</div>
@@ -49,16 +82,14 @@
 			<h1>Сливочное мороженое</h1>
 				<form class="filter" action="#" method="get">
 				<div class="filter-sorting">
-							<p>Сортировка:</p>
-							<select name="sorting" size="1">
-							<option value="by-popular">по популярности</option>
-							<option value="first-cheap">сначала недорогие</option>
-							<option value="first-expensive">сначала дорогие</option>
-							<option value="by-fatness">по жирности</option>
-							</select>
+					<p>Сортировка:</p>
+					<select name="sorting" size="1">
+						<option value="by-popular">по популярности</option>
+					</select>
 				</div>
 				<div class="filter-price">
-					<p>Цена: 100руб. - 500 руб.</p>
+					<label for="price">Цена: 100руб. - 500 руб.</label>
+					<input type="range" id="price" name="price" min="100" max="500" step="10">
 				</div>
 				<div class="filter-fatness">
 					<p>Жирность:</p>
