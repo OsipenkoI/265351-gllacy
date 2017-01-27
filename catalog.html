@@ -14,14 +14,14 @@
 			</div >
 			<nav class="main-navigator">
 				<ul>
-					<li> <a href="#">Каталог</a></li>
+					<li> <a href="#">Каталог</a>
 						<ul class="main-sub-menu">
 							<li><a class="novelty" href="#">Новинки</a></li>
 							<li><a href="#">Сливочное</a></li>
 							<li><a href="#">Щербеты</a></li>
-							<li><a href="#">Фруктовый лед</</li>
+							<li><a href="#">Фруктовый лед</a></li>
 							<li><a href="#">Мелорин</a></li>
-						</ul>
+						</ul></li>
 					<li> <a href="#">Доставка и оплата</a></li>
 					<li> <a href="#">О компании</a></li>
 				</ul>
@@ -77,6 +77,7 @@
 						8 812 450-25-25</p>
 					</div>
 				</div>
+			</div>
 		</header>
 		<main class="container">
 			<div class="breadcrumbs">
@@ -89,18 +90,18 @@
 			<h1>Сливочное мороженое</h1>
 			<form class="filter" action="#" method="get">
 				<fieldset>
-					<div class="filter-sorting">
-						<p>Сортировка:</p>
-						<select name="sorting" size="1">
-							<option value="by-popular">по популярности</option>
-						</select>
-					</div>
+					<legend>Сортировка:</legend>
+					<select name="sorting" size="1">
+						<option value="by-popular">по популярности</option>
+					</select>
 					<div class="filter-price">
 						<label for="price">Цена: 100руб. - 500 руб.</label>
 						<input type="range" id="price" name="price" min="100" max="500" step="10">
 					</div>
-					<div class="filter-fatness">
-						<p>Жирность:</p>
+					<div class="filter-fatness"></div>
+				</fieldset>
+				<fieldset>
+						<legend>Жирность:</legend>
 						<div class="checkbox-wrapper">
 							<input type="radio" name="fatness" id="fatness-0" value="0">
 							<label for="fatness-0">0%</label>
@@ -117,9 +118,9 @@
 							<input type="radio" name="fatness" id="fatness->30" value=">30">
 							<label for="fatness->30">выше 30%</label>
 						</div>
-						</div>
-					<div class="filter-filler">
-						<p>Наполнители:</p>
+				</fieldset>
+				<fieldset>
+						<legend>Наполнители:</legend>>
 						<div class="checkbox-wrapper">
 							<input type="checkbox" name="filler" id="filler-chocolate" value="chocolate" checked>
 							<label for="filler-chocolate">шоколадные</label>
@@ -140,7 +141,8 @@
 							<input type="checkbox" name="filler" id="filler-jams" value="jams">
 							<label for="filler-jams">джемы</label>
 						</div>
-						</div>
+				</fieldset>
+				<fieldset>
 					<input name="filter-checkout" type="submit" value="Применить">
 				</fieldset>
 			</form>
@@ -236,7 +238,7 @@
 					</ul>
 				</div>
 				<div class="footer-copyright">
-					<a class="footer-logo" href="#">
+					<a class="footer-logo" href="#"></a>
 					<p class="copyright">Сделано в <a href="#">HTML Academy</a> &copy; 2017</p>
 				</div>
 			</div>
