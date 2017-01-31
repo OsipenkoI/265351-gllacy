@@ -107,7 +107,6 @@ body {
 .map-conteiner{
   min-width:1200px;
   min-height: 430px;
-  background: url(../img/map.jpg) no-repeat;
 }
 .contact{
   float: right;
