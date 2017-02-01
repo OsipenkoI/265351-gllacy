@@ -1,10 +1,10 @@
 html,
 body {
-  min-width: 1200px;
+  width: 1200px;
   font-size: 16px;
   font-weight: bold;
   font-family: "Roboto", "Arial", sans-serif;
-  color: black;
+  color: white;
   background: #849d8f;
  }
 
@@ -17,8 +17,8 @@ body {
 /*----------------index.html----------------*/
 .container{
   width: 1146px;
-  padding: 0 10px;
-  margin: 0 auto;
+  margin-right: 27px;
+  margin-left: 27px;
 }
 .logo{
   float: left;
@@ -35,26 +35,35 @@ body {
   min-height: 110px;
   width: 267px;
   }
-.main-header{
-  margin-bottom:
 }
 .slider{
   width: 680px;
   min-height: 600px;
   margin: 0 auto;
-  text-align: center;
+  text-align:center;
+  vertical-align: middle;
+  background: url(../img/ice-1.png) no-repeat;
+  background-position: -140px -50px;
 }
 .raspberry{
   float: left;
-  width: 560px;
+  width: 520px;
   margin-bottom: 20px;
   background: url("../img/raspberry.jpg") no-repeat;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 25px;
 }
 .chocolate{
   float: right;
-  width: 560px;
+  width: 520px;
   margin-bottom: 20px;
   background: url(../img/chocolate.jpg) no-repeat;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 25px;
 }
 .popular{
   margin-bottom: 40px;
@@ -65,25 +74,36 @@ body {
   width: 267px;
   margin-right: 25px;
   margin-bottom: 60px;
+  background: url(../img/hit.png) no-repeat;
 }
-  .popular-item:last-child {
+.popular-item:last-child {
   margin-right: 0;
 }
 .feature{
   margin-bottom: 40px;
   min-height: 305px;
   background: url(../img/gradient-wafer.png) repeat;
+  border-radius: 10px;
+  color: #323232;
 }
 .feature-left{
   float: left;
-  width: 541px;
+  width: 475px;
   min-height: 190px;
   margin-right: 25px;
+  padding-left: 75px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .feature-right{
   float: right;
-  width: 541px;
+  width: 475px;
   min-height: 190px;
+  margin-right: 35px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+
 }
 .blog{
   margin-bottom: 42px;
@@ -93,13 +113,16 @@ body {
   width: 541px;
   min-height: 222px;
   margin-right: 25px;
-  background: url(../img/strawberry.jpg) no-repeat center;
+  background: url(../img/strawberry.jpg) no-repeat;
+  background-position:-80px -220px;
+  color: #323232;
 }
 .blog-subscribe-right{
   float: right;
   width: 541px;
   min-height: 222px;
   background: #f8f7f4;
+  color: #5a5a5a;
 }
 .map{
   margin-bottom: 35px;
@@ -113,24 +136,28 @@ body {
   width: 307px;
   min-height: 307px;
   background: #fefefe;
+  margin-right: 27px;
+}
+.main-footer{
+  clear: both;
+  width: 1146px;
+  min-height: 60px;
 }
 .footer-social{
   float: left;
   width: 267px;
   margin-right: 27px;
-  min-height: 45px;
 }
+
 .footer-about-us{
   float: left;
   width: 340px;
   margin-right: 27px;
-  min-height: 40px;
 }
 .footer-copyright{
   float: right;
   width: 195px;
   margin-right: 27px;
-  min-height: 60px;
 }
 /*---------------katalog.html--------------------*/
 
@@ -139,34 +166,35 @@ body {
 }
 .breadcrumbs{
   float: left;
-  width: 220px;
+  width: 230px;
   min-height: 18px;
 }
 .filter{
   float: left;
   clear:both;
-  width: 860px;
+  width: 870px;
   min-height: 140px;
 }
 .catalog{
   clear: both;
-  width: 865px;
-  min-height: 900px;
+  width: 1146px;
+  min-height: 1060px;
   margin-bottom: 80px;
 }
 .catalog-item{
   float: left;
-  width: 200px;
-  margin-right: 20px;
-  margin-bottom: 30px;
+  width: 267px;
+  margin-right: 26px;
+  margin-bottom: 95px;
 }
 .catalog-item:nth-child(4n){
   margin-right: 0;
 }
 .paginator{
   float: right;
-  width: 200px;
-  min-height: 80px;
-  margin-bottom: 30px;
+  width: 170px;
+  min-height: 30px;
+  margin-bottom: 50px;
+  margin-top: 40px;
   text-align: center;
 }
