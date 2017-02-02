@@ -34,7 +34,6 @@ body {
   float: right;
   min-height: 110px;
   width: 267px;
-  }
 }
 .slider{
   width: 680px;
@@ -42,7 +41,7 @@ body {
   margin: 0 auto;
   text-align:center;
   vertical-align: middle;
-  background: url(../img/ice-1.png) no-repeat;
+  background: url("../img/ice-1.png") no-repeat;
   background-position: -140px -50px;
 }
 .raspberry{
@@ -157,7 +156,6 @@ body {
 .footer-copyright{
   float: right;
   width: 195px;
-  margin-right: 27px;
 }
 /*---------------katalog.html--------------------*/
 
